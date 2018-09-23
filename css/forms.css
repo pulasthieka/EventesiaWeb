@@ -1,0 +1,9 @@
+input:not([type="submit"])+.requirements{
+	overflow:hidden;
+	max-height:0;
+	transition:max-height 1s ease-out;}
+	
+input:not([type="submit"]):hover + .requirements, input:not([type="submit"]):active + .requirements, input:not([type="submit"]):focus + .requirements{
+	max-height:1000px;
+	transition:max-height 1s ease-in;}
+	

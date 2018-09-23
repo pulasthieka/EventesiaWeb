@@ -1,0 +1,10 @@
+
+RewriteEngine on
+DirectoryIndex Home.php        
+RewriteOptions inherit
+
+#ErrorDocument 404 /notfound.php
+#ErrorDocument 403 /notfound.php
+Options -Indexes
+
+
